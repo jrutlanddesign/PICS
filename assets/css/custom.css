@@ -1,0 +1,31 @@
+/* Add here all your css styles (customizations) */
+.header-v3 .navbar-brand img {
+  width: auto;
+  height: 40px; }
+
+.header-fixed .header-v3.header-fixed-shrink .navbar-brand img {
+  width: auto;
+  height: 35px; }
+
+@media (max-width: 991px) {
+  .header-fixed .header-v3.header-fixed-shrink .navbar-brand {
+    top: -1px; } }
+
+.interactive-slider-v2.find-contractor {
+  padding: 50px 0px;
+  background-image: url(../img/bg/home-1.jpg); }
+  .interactive-slider-v2.find-contractor h2 {
+    font-size: 3.3em;
+    color: #fff;
+    margin-bottom: 20px; }
+
+.headline-center h2 {
+  text-transform: uppercase; }
+
+.coming-soon .btn-u {
+  white-space: normal; }
+
+.panel-default-dark {
+  border-color: #151515; }
+  .panel-default-dark .panel-heading {
+    background: #151515; }
