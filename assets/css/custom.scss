@@ -16,8 +16,7 @@
 
 
 .interactive-slider-v2.find-contractor{
-	
-	padding:50px 0px;
+	padding:100px 0px;
 	background-image: url(../img/bg/home-1.jpg);
 	
 	h2{
@@ -25,9 +24,24 @@
 		color:#fff;
 		margin-bottom:20px;
 	}
-	
-	
-	
+}
+
+.interactive-slider-v2.become-contractor, .interactive-slider-v2.training, .interactive-slider-v2.manufacture{
+	padding:100px 0px;
+	background-image: url(../img/bg/contractor-3.jpg);
+	h2{
+		font-size:3.3em;
+		color:#fff;
+		margin-bottom:20px;
+	}
+}
+
+.interactive-slider-v2.training{
+	background-image: url(../img/bg/contractor-2.jpg);
+}
+
+.interactive-slider-v2.manufacture{
+	background-image: url(../img/bg/contractor-1.jpg);
 }
 
 
@@ -46,4 +60,19 @@
     .panel-heading{
 	    background: #151515;
     }
+}
+
+.service-block.service-block-default img {
+    border-radius: 50%;
+    height: 200px;
+    width: 70%;
+    margin: 20px auto 40px;
+}
+
+.pad-top-bot {
+	padding: 50px 0;
+}
+
+.white-text, .white-text p, .white-text h2, .white-text h3 {
+	color: #FFF !important;
 }

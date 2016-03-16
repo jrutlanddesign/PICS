@@ -1,31 +1,77 @@
 /* Add here all your css styles (customizations) */
 .header-v3 .navbar-brand img {
   width: auto;
-  height: 40px; }
+  height: 40px;
+}
 
 .header-fixed .header-v3.header-fixed-shrink .navbar-brand img {
   width: auto;
-  height: 35px; }
+  height: 35px;
+}
 
 @media (max-width: 991px) {
   .header-fixed .header-v3.header-fixed-shrink .navbar-brand {
-    top: -1px; } }
+    top: -1px;
+  }
+}
 
 .interactive-slider-v2.find-contractor {
-  padding: 50px 0px;
-  background-image: url(../img/bg/home-1.jpg); }
-  .interactive-slider-v2.find-contractor h2 {
-    font-size: 3.3em;
-    color: #fff;
-    margin-bottom: 20px; }
+  padding: 100px 0px;
+  background-image: url(../img/bg/home-1.jpg);
+}
+
+.interactive-slider-v2.find-contractor h2 {
+  font-size: 3.3em;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.interactive-slider-v2.become-contractor, .interactive-slider-v2.training, .interactive-slider-v2.manufacture {
+  padding: 100px 0px;
+  background-image: url(../img/bg/contractor-3.jpg);
+}
+
+.interactive-slider-v2.become-contractor h2, .interactive-slider-v2.training h2, .interactive-slider-v2.manufacture h2 {
+  font-size: 3.3em;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.interactive-slider-v2.training {
+  background-image: url(../img/bg/contractor-2.jpg);
+}
+
+.interactive-slider-v2.manufacture {
+  background-image: url(../img/bg/contractor-1.jpg);
+}
 
 .headline-center h2 {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .coming-soon .btn-u {
-  white-space: normal; }
+  white-space: normal;
+}
 
 .panel-default-dark {
-  border-color: #151515; }
-  .panel-default-dark .panel-heading {
-    background: #151515; }
+  border-color: #151515;
+}
+
+.panel-default-dark .panel-heading {
+  background: #151515;
+}
+
+.service-block.service-block-default img {
+  border-radius: 50%;
+  height: 200px;
+  width: 70%;
+  margin: 20px auto 40px;
+}
+
+.pad-top-bot {
+  padding: 50px 0;
+}
+
+.white-text, .white-text p, .white-text h2, .white-text h3 {
+  color: #FFF !important;
+}
